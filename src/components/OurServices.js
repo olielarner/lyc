@@ -10,13 +10,13 @@ const SingleService = ({ title, copy }) => {
 
     return (
         <div
-            className="service__single py-7 border-b-[1px] cursor-pointer border-lyc-purple "
+            className="service__single py-7 px-3 lg:px-0 border-b-[1px] cursor-pointer border-lyc-purple "
             onMouseOver={() => setPlusSign(false)}
             onMouseOut={() => setPlusSign(true)}
         >
             <div className="service__single-title  font-unbounded flex justify-between items-center">
-                <h3 className="text-5xl text-lyc-purple">{title}</h3>
-                <div className="w-10">
+                <h3 className="text-xl lg:text-5xl text-lyc-purple">{title}</h3>
+                <div className="w-6 lg:w-10">
                     <Minus fill={plusColour} plus={plusSign} />
                 </div>
             </div>
@@ -27,7 +27,7 @@ const SingleService = ({ title, copy }) => {
                     "service__single-copy transition-all duration-1000 origin-top overflow-hidden"
                 )}
             >
-                <div className=" py-20 font-unbounded leading-loose text-sm font-light text-lyc-purple mx-auto w-2/3">
+                <div className=" py-10 lg:py-20 font-unbounded leading-loose text-sm font-light text-lyc-purple mx-auto w-full lg:w-2/3">
                     {copy}
 
                     <button className="hero__button flex items-center cta mt-11 self-start px-7 rounded-full bg-lyc-pink py-7 font-unbounded text-base font-light text-white">
@@ -44,11 +44,11 @@ const SingleService = ({ title, copy }) => {
 
 const OurServices = () => {
     return (
-        <div className="services py-32">
+        <div className="services py-12 lg:py-32">
             <div className="container mx-auto flex">
-                <div className="w-full mb-20">
-                    <h2 className=" font-unbounded font-normal text-center mb-16  text-9xl text-lyc-pink">
-                        Services
+                <div className="w-full mb-10 xl:mb-20">
+                    <h2 className=" font-unbounded font-normal text-center mb-0 lg:mb-16 text-4xl lg:text-9xl text-lyc-pink">
+                        Our Services
                     </h2>
                 </div>
             </div>

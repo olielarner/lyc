@@ -10,7 +10,7 @@ import JaggedYellow from "./components/JaggedYellow";
 
 function App() {
     return (
-        <div className="App h-[10000px]">
+        <div className="App">
             <Hero />
             <Jagged />
             <FirstSection />

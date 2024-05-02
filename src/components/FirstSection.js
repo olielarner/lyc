@@ -52,7 +52,7 @@ const FirstSection = () => {
 
     return (
         <div ref={first} className="w-full first-section">
-            <div className=" py-28 container mx-auto font-unbounded text-lyc-purple text-4xl text-center">
+            <div className=" py-28 container mx-auto font-unbounded text-lyc-purple text-2xl lg:text-4xl text-center">
                 <p className="first-section__opening-para mx-auto w-full lg:max-w-[50%] leading-normal font-light">
                     <strong>Love Your Content</strong> is a digital marketing
                     agency based in The Cotswolds. We are known for delivering

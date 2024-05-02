@@ -144,11 +144,11 @@ const Hero = () => {
     return (
         <div
             ref={hero}
-            className="hero relative h-screen w-full overflow-hidden pt-20 bg-lyc-purple flex align-middle justify-center text-3xl"
+            className="hero relative h-screen w-full overflow-hidden pt-20 bg-lyc-purple flex flex-col-reverse lg:flex-row align-middle justify-center text-3xl"
         >
             <div className="absolute hero__pattern h-full w-[150%] bg-hero-pattern"></div>
             <div className="w-full absolute h-full flex justify-center items-center top-0 left-0">
-                <h2 className="relative overflow-hidden hero__line-one text-center font-unbounded text-lyc-pink text-8xl font-light">
+                <h2 className="relative overflow-hidden hero__line-one text-center font-unbounded text-lyc-pink text-4xl lg:text-8xl font-light">
                     YOU RUN AN <br />
                     <span className="font-normal italic">AWESOME</span>{" "}
                     BUSINESS...
@@ -161,13 +161,13 @@ const Hero = () => {
                     className="hero__lady-ill relative right-0 object-contain w-full "
                 />
             </div>
-            <div className="w-1/2 flex flex-col justify-start pl-10 pt-14 pr-10">
-                <h3 className="hero__line-two relative left-0 font-unbounded text-lyc-yellow text-8xl font-extralight">
+            <div className=" w-full lg:w-1/2 flex flex-col justify-start pl-10 pt-14 pr-10">
+                <h3 className="hero__line-two relative left-0 font-unbounded text-lyc-yellow text-5xl lg:text-8xl font-extralight">
                     Let us help you{" "}
                     <span className=" font-normal italic">shout</span> about it.
                 </h3>
 
-                <button className="hero__button flex items-center cta mt-11 self-start px-7 rounded-full bg-lyc-pink py-7 font-unbounded text-base font-light text-white">
+                <button className="hero__button self-end  flex items-center cta mt-11 lg:self-start px-7 rounded-full bg-lyc-pink py-7 font-unbounded text-base font-light text-white">
                     Get started
                     <div className="arrow rounded-full bg-lyc-purple ">
                         <img src={Arrow} alt="" />

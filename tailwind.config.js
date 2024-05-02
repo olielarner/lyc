@@ -2,7 +2,7 @@
 module.exports = {
     mode: "jit",
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
-    safelist: ["flex-row-reverse"],
+    safelist: ["flex-row-reverse, lg:flex-row-reverse"],
     theme: {
         extend: {
             fontFamily: {
