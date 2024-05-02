@@ -5,8 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import HudImage from "../media/our-work/hudson.jpg";
 import WhitImage from "../media/our-work/whitaker.png";
-import CorkImage from "../media/our-work/cork-co.jpeg";
-import GroupImage from "../media/our-work/groupx.jpeg";
+import CorkImage from "../media/our-work/cork-co.jpg";
+import GroupImage from "../media/our-work/groupx.jpg";
 import Arrow from "../media/icons/circlearrow_white.svg";
 
 const Work = ({ image, cat, title, url }) => {
